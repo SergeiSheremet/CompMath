@@ -7,7 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompMathLab2", "CompMathLab
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompMathLab1", "CompMathLab1\CompMathLab1.csproj", "{FC9C032D-D419-471D-A6EB-FB5072E82D4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompMathLab5", "CompMathLab3\CompMathLab5.csproj", "{47AB1366-B5D9-40EA-A1A8-CBA8F6F9736A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompMathLab5", "CompMathLab5\CompMathLab5.csproj", "{47AB1366-B5D9-40EA-A1A8-CBA8F6F9736A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompMathLab3", "CompMathLab3\CompMathLab3.csproj", "{168CD821-27D6-4CA4-8262-D050B5E22AF2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{47AB1366-B5D9-40EA-A1A8-CBA8F6F9736A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47AB1366-B5D9-40EA-A1A8-CBA8F6F9736A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47AB1366-B5D9-40EA-A1A8-CBA8F6F9736A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{168CD821-27D6-4CA4-8262-D050B5E22AF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{168CD821-27D6-4CA4-8262-D050B5E22AF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{168CD821-27D6-4CA4-8262-D050B5E22AF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{168CD821-27D6-4CA4-8262-D050B5E22AF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
