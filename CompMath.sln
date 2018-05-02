@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompMathLab5", "CompMathLab
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompMathLab3", "CompMathLab3\CompMathLab3.csproj", "{168CD821-27D6-4CA4-8262-D050B5E22AF2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompMathLab4", "CompMathLab4\CompMathLab4.csproj", "{A250C982-F895-41ED-8FBB-8ECF18DFA5B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompMathLab6", "CompMathLab6\CompMathLab6.csproj", "{23326373-DEFF-4FD4-A63E-D561F7A1F2D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{168CD821-27D6-4CA4-8262-D050B5E22AF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{168CD821-27D6-4CA4-8262-D050B5E22AF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{168CD821-27D6-4CA4-8262-D050B5E22AF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A250C982-F895-41ED-8FBB-8ECF18DFA5B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A250C982-F895-41ED-8FBB-8ECF18DFA5B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A250C982-F895-41ED-8FBB-8ECF18DFA5B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A250C982-F895-41ED-8FBB-8ECF18DFA5B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23326373-DEFF-4FD4-A63E-D561F7A1F2D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23326373-DEFF-4FD4-A63E-D561F7A1F2D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23326373-DEFF-4FD4-A63E-D561F7A1F2D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23326373-DEFF-4FD4-A63E-D561F7A1F2D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

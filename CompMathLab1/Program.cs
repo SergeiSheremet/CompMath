@@ -14,7 +14,7 @@ namespace CompMathLab1
                 new double[] { 1, -4, 9, 5 }
             };
 
-            double[] answer = EquationsSystemSolver.Solve(system);
+            double[] answer = EquationsSystemSolver.GaussMethod(system);
 
             Console.WriteLine("System of Equations");
             foreach (var i in system)

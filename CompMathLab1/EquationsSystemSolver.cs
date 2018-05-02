@@ -6,7 +6,7 @@ namespace CompMathLab1
 {
     static class EquationsSystemSolver
     {
-        public static double[] Solve(double[][] matrix)
+        public static double[] GaussMethod(double[][] matrix)
         {
             if (matrix.Length == 0) throw new Exception();
 
