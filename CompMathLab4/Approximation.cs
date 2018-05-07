@@ -6,17 +6,17 @@ namespace CompMathLab4
 {
     static class Approximation
     {
-        public static List<double> FiberMethod(IList<double> xList, IList<double> yList)
+        public static (double k, double b) FiberMethod(IList<double> xList, IList<double> yList)
         {
             Validation(xList, yList);
 
             double k = (yList[yList.Count - 1] - yList[0]) / (xList[xList.Count - 1] - xList[0]);
             double b = yList[0] - k * xList[0];
 
-            return new List<double> { k, b };
+            return (k, b);
         }
 
-        public static List<double> LeastSquares(IList<double> xList, IList<double> yList)
+        public static (double k, double b) LeastSquares(IList<double> xList, IList<double> yList)
         {
             Validation(xList, yList);
 
@@ -38,10 +38,10 @@ namespace CompMathLab4
             double k = (xList.Count * xySum - xSum * ySum) / (xList.Count * xSqrSum - xSum * xSum);
             double b = (ySum - k * xSum) / xList.Count;
 
-            return new List<double> { k, b };
+            return (k, b);
         }
         
-        public static double DeviationSquareSum(double k, double b, IList<double> xList, IList<double> yList)
+        public static double DeviationSumOfSquares(double k, double b, IList<double> xList, IList<double> yList)
         {
             Validation(xList, yList);
 

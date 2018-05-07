@@ -8,10 +8,8 @@ namespace CompMathLab3
 {
     static class SquareCalculator
     {
-        public static double SimpsonMethod(Func<double, double> func, double left, double right)
+		public static double SimpsonMethod(Func<double, double> func, double left, double right, double h)
         {
-            const double h = 0.2;
-
             double funcEven = 0;
             double funcOdd = 0;
 
@@ -28,9 +26,9 @@ namespace CompMathLab3
             return h / 3 * (func(left) + 2 * funcEven + 4 * funcOdd + func(right));
         }
 
-        public static double ErrorEstimation(Func<double, double> func, double left, double right)
+        public static double ErrorEstimation(Func<double, double> func, double left, double right, double h)
         {
-            return 0;
+            return Math.Abs((SimpsonMethod(func, left, right, h) - SimpsonMethod(func, left, right, 2 * h))) / 15;
         }
     }
 }

@@ -10,9 +10,13 @@ namespace CompMathLab3
     {
         static void Main(string[] args)
         {
-            Func<double, double> func = x => 1 / (1.3 + 2.4 * x);
+			const double h = 0.2;
+			double left = 1;
+			double right = 2.4;
+			Func<double, double> func = x => 1 / (1.3 + 2.4 * x);
 
-            Console.WriteLine(SquareCalculator.SimpsonMethod(func, 1, 2.6));
+            Console.WriteLine(SquareCalculator.SimpsonMethod(func, left, right, h));
+			Console.WriteLine(SquareCalculator.ErrorEstimation(func, left, right, h));
         }
     }
 }
