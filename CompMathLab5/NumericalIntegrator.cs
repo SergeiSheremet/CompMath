@@ -1,12 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CompMathLab3
 {
-    static class NumericalIntegrator
+	static class NumericalIntegrator
     {
         public static LinkedList<Step> RungeKutta(Func<double, double, double> diff, double yStart, double a, double b, double h)
         {

@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace CompMathLab1
 {
-    static class EquationsSystemSolver
+	static class EquationsSystemSolver
     {
         public static double[] GaussMethod(double[][] matrix)
         {

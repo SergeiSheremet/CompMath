@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace CompMathLab4
 {
-    static class Approximation
+	static class Approximation
     {
         public static (double k, double b) FiberMethod(IList<double> xList, IList<double> yList)
         {

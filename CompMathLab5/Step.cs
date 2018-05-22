@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CompMathLab3
+﻿namespace CompMathLab3
 {
-    struct Step
+	struct Step
     {
         double x, y, k1, k2, k3, k4;
 

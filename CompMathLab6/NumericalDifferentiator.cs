@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CompMathLab6
 {
@@ -10,7 +6,7 @@ namespace CompMathLab6
 	{
 		public static double NewtonPolynomial(Func<double, double> func, double point, double left, double right, double step)
 		{
-			int number = (int)((right - left) / step);
+			int number = (int)((right - left) / step) + 1;
 			double[][] coeffs = new double[number][];
 			coeffs[0] = new double[number];
 
@@ -31,7 +27,7 @@ namespace CompMathLab6
 
 			double t = (point - left) / step;
 
-			return 0;
+			return (coeffs[1][0] + coeffs[2][0] * (2 * t - 1) / 2 + coeffs[3][0] * (3 * Math.Pow(t, 2) - 6 * t + 2) / 6 + coeffs[4][0] * (2 * Math.Pow(t, 3) - 9 * Math.Pow(t, 2) + 11 * t - 3) / 12) / step;
 		}
 	}
 }

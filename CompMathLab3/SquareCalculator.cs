@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CompMathLab3
 {
-    static class SquareCalculator
+	static class SquareCalculator
     {
 		public static double SimpsonMethod(Func<double, double> func, double left, double right, double h)
         {

@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace CompMathLab1
 {
-    class Program
+	class Program
     {
         static void Main(string[] args)
         {

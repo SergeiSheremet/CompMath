@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CompMathLab2
 {
-    static class RootFinder
+	static class RootFinder
     {
         public static double BinarySearch(Func<double, double> func, double left, double right)
         {
