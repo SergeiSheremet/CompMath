@@ -13,8 +13,6 @@ namespace CompMathLab6
 			double step = 0.25;
 
 			Console.WriteLine(NumericalDifferentiator.NewtonPolynomial(func, point, left, right, step));
-
-			Console.WriteLine(func.ToString());
 		}
 	}
 }

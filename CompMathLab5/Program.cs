@@ -7,9 +7,9 @@ namespace CompMathLab3
     {
         static void Main(string[] args)
         {
-            Func<double, double, double> diff = (x, y) => x * Math.Pow(y, 2) - y;
+            Func<double, double, double> diff = (x, y) => ((8 + 12 * Math.Cos(x)) * Math.Exp(2 * x) - 3 * Math.Pow(y, 2) * Math.Cos(x)) / (2 * y);
 
-            LinkedList<Step> result = NumericalIntegrator.RungeKutta(diff, 1, 0, 2, 0.1);
+            LinkedList<Step> result = NumericalIntegrator.RungeKutta(diff, 2, 0, 2, 0.2);
 
             foreach (var i in result)
             {
